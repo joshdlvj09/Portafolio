@@ -178,7 +178,8 @@ nav a.nav-cta:hover{border-color:var(--lilac)}
 .contact h2{font-size:clamp(2.8rem,7.4vw,5.8rem);max-width:14ch}
 .contact p{margin:0;color:var(--muted);max-width:52ch;font-weight:300}
 .contact-box{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;padding:6px;border:1px solid var(--line-strong);border-radius:999px;background:rgba(10,16,14,.7);max-width:100%}
-.mail{font-family:var(--font-mono);font-size:.95rem;padding:10px 16px;user-select:all;word-break:break-all}
+.contact-methods{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:100%}
+.mail{font-family:var(--font-mono);font-size:.95rem;padding:10px 16px;user-select:all;word-break:break-all;text-decoration:none}
 .copy{cursor:pointer;border:none;font:inherit;font-weight:500;font-size:.9rem;padding:11px 20px;border-radius:999px;color:#fff;background:linear-gradient(180deg, var(--mauve), var(--violet))}
 .copy:hover{filter:brightness(1.1)}
 
@@ -213,6 +214,7 @@ footer a:hover{color:var(--lilac)}
   .stats{grid-template-columns:1fr}
   .stat + .stat{padding-left:0;border-left:none;border-top:1px solid var(--line);padding-top:18px}
   .stat{padding-bottom:18px}
+  .contact-methods{width:100%}
   .contact-box{border-radius:20px;flex-direction:column;width:100%}
   .copy{width:100%}
 }
