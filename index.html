@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <title>Josh De la Vega · Portafolio</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== Navegación ========== -->
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#inicio">Josh <i>De la Vega</i></a>
+      <nav aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a class="nav-cta" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== Hero ========== -->
+    <section class="hero" id="inicio">
+      <div class="wrap">
+        <span class="avail rise"><b></b>Disponible para proyectos · Mérida, Yucatán</span>
+        <h1 class="rise d1">Páginas web que hacen <em>crecer</em> tu negocio.</h1>
+        <p class="lead rise d2">Soy <strong>Joshua De la Vega</strong>, desarrollador web full-stack y estudiante de Ingeniería en TI en la Anáhuac Mayab. Diseño y programo sitios y aplicaciones para negocios: desde una página para que tus clientes te encuentren hasta un catálogo con contacto directo por WhatsApp y correo.</p>
+        <div class="cta-row rise d3">
+          <a class="btn primary" href="#contacto">Cotiza tu proyecto <span class="arr">→</span></a>
+          <a class="btn" href="#proyectos">Ver proyectos</a>
+        </div>
+        <div class="stats rise d4">
+          <div class="stat"><strong>540+</strong><span>grupos de productos en el catálogo de Aminovita</span></div>
+          <div class="stat"><strong>3</strong><span>proyectos: web, full-stack y móvil</span></div>
+          <div class="stat"><strong>2</strong><span>idiomas de trabajo: español e inglés</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Servicios ========== -->
+    <section class="sec" id="servicios">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="label">Servicios</span>
+          <h2>Lo que puedo hacer <em>por ti</em></h2>
+          <p>Trabajo directo conmigo, sin intermediarios. Te explico cada paso con claridad y te entrego algo que puedes seguir usando.</p>
+        </div>
+        <div class="services">
+          <div class="service">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 8h18M8 21h8"/></svg></div>
+            <h3>Páginas web para negocios</h3>
+            <p>Sitio informativo o catálogo de productos, rápido y adaptado a celular.</p>
+            <ul>
+              <li>Botón y formulario de WhatsApp</li>
+              <li>Publicado en tu propio dominio</li>
+              <li>Listo para aparecer en Google</li>
+            </ul>
+          </div>
+          <div class="service">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6c0-1.1 3.6-2 8-2s8 .9 8 2-3.6 2-8 2-8-.9-8-2z"/><path d="M4 6v6c0 1.1 3.6 2 8 2s8-.9 8-2V6"/><path d="M4 12v6c0 1.1 3.6 2 8 2s8-.9 8-2v-6"/></svg></div>
+            <h3>Aplicaciones a medida</h3>
+            <p>Sistemas con usuarios, inicio de sesión y base de datos.</p>
+            <ul>
+              <li>Inventarios y registros</li>
+              <li>Paneles internos</li>
+              <li>Formularios con envío de correo</li>
+            </ul>
+          </div>
+          <div class="service">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg></div>
+            <h3>Asesorías</h3>
+            <p>Sesiones uno a uno para estudiantes y emprendedores.</p>
+            <ul>
+              <li>JavaScript, Node.js y MongoDB</li>
+              <li>Publicar tu proyecto en línea</li>
+              <li>Resolver errores en tu código</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Proyectos ========== -->
+    <section class="sec flush-top" id="proyectos">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="label">Proyectos</span>
+          <h2>Trabajo <em>seleccionado</em></h2>
+          <p>Un sitio en producción para un cliente real y dos aplicaciones propias, una web y una móvil.</p>
+        </div>
+
+        <div class="projects">
+          <!-- Proyecto: Aminovita -->
+          <article class="case">
+            <div class="case-body">
+              <div class="case-top"><span class="label">Cliente · 2026</span><span class="status live">En línea</span></div>
+              <h3>Aminovita Químicos</h3>
+              <p>Sitio web para una empresa de productos químicos en Mérida. Presenta su catálogo y conecta a cada cliente con el área correcta en segundos.</p>
+              <ul>
+                <li>Catálogo de más de 540 grupos de productos, clasificados por industria.</li>
+                <li>Formulario con selector de contactos que envía por WhatsApp o por correo.</li>
+                <li>Autenticación con JWT, validación en MongoDB y despliegue en Render.</li>
+                <li>Revisión de seguridad antes de publicar: credenciales, CORS y configuración.</li>
+              </ul>
+              <div class="stack"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Bootstrap 5</span><span>JWT</span><span>Resend</span></div>
+              <div class="links"><a href="https://aminovitaquimicos.com.mx" target="_blank" rel="noopener">Visitar sitio ↗</a></div>
+            </div>
+            <div class="stage" aria-hidden="true">
+              <div class="win">
+                <div class="bar"><i></i><i></i><i></i><small>aminovitaquimicos.com.mx/contacto</small></div>
+                <div class="pv">
+                  <div class="pv-title">¿Con quién quieres hablar?</div>
+                  <div class="cards">
+                    <div class="mini"><b class="a"></b>Ventas</div>
+                    <div class="mini"><b class="b"></b>Calidad</div>
+                    <div class="mini"><b class="c"></b>Logística</div>
+                  </div>
+                  <div class="chips"><span class="chip on">WhatsApp</span><span class="chip">Correo</span></div>
+                  <div class="row">Catálogo de productos <em>542 grupos</em></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto: Chronos -->
+          <article class="case">
+            <div class="case-body">
+              <div class="case-top"><span class="label">Proyecto propio · Web</span><span class="status dev">En desarrollo</span></div>
+              <h3>Chronos</h3>
+              <p>Aplicación web para llevar el control de las series, libros y películas que ves o lees. Cada usuario tiene su perfil y organiza sus listas con notas propias.</p>
+              <ul>
+                <li>Listas de visto, en proceso y por ver, con notas por título.</li>
+                <li>Frontend y backend separados en dos repositorios.</li>
+                <li>Próximo paso: un muro para compartir listas con amigos.</li>
+              </ul>
+              <div class="stack"><span>JavaScript</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+              <div class="links">
+                <a href="https://github.com/joshdlvj09/Chronos" target="_blank" rel="noopener">Frontend ↗</a>
+                <a href="https://github.com/joshdlvj09/Backend-Chronos" target="_blank" rel="noopener">Backend ↗</a>
+              </div>
+            </div>
+            <div class="stage" aria-hidden="true">
+              <div class="win">
+                <div class="bar"><i></i><i></i><i></i><small>chronos · mis listas</small></div>
+                <div class="pv">
+                  <div class="pv-title">Mis listas</div>
+                  <div class="chips"><span class="chip on">Series</span><span class="chip">Libros</span><span class="chip">Películas</span></div>
+                  <div class="row">Dark <em>visto</em></div>
+                  <div class="row">Cien años de soledad <em>en proceso</em></div>
+                  <div class="row">Interstellar <em>por ver</em></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto: Finto -->
+          <article class="case">
+            <div class="case-body">
+              <div class="case-top"><span class="label">Proyecto propio · Móvil</span><span class="status dev">Uso personal</span></div>
+              <h3>Finto</h3>
+              <p>App móvil de finanzas personales. Registras ingresos y gastos, los clasificas por categoría y ves en gráficas a dónde se va tu dinero.</p>
+              <ul>
+                <li>Registro rápido de movimientos con categorías.</li>
+                <li>Gráficas de gastos por categoría y por periodo.</li>
+                <li>Hecha con React Native y Expo para Android e iOS.</li>
+              </ul>
+              <div class="stack"><span>React Native</span><span>Expo</span><span>JavaScript</span></div>
+              <div class="links"><a href="https://github.com/joshdlvj09/finto" target="_blank" rel="noopener">Código en GitHub ↗</a></div>
+            </div>
+            <div class="stage" aria-hidden="true">
+              <div class="phone">
+                <div class="screen">
+                  <div class="notch"></div>
+                  <span class="label">Balance del mes</span>
+                  <div class="big">$4,280</div>
+                  <div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+                  <div class="row">Comida <em>−$1,150</em></div>
+                  <div class="row">Transporte <em>−$420</em></div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Sobre mí ========== -->
+    <section class="sec flush-top" id="sobre-mi">
+      <div class="wrap about">
+        <div>
+          <span class="label">Sobre mí</span>
+          <h2>Hecho en <em>Mérida</em>, con oficio de ingeniero.</h2>
+          <p>Estudio <strong>Ingeniería en Tecnologías de la Información</strong> en la Universidad Anáhuac Mayab. Me gusta construir proyectos completos: la página, el servidor, la base de datos y la publicación en línea.</p>
+          <p>Mi primer cliente fue una empresa local que hoy usa su sitio todos los días. Busco más negocios como ese, que quieran una presencia en internet seria sin complicarse.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Ubicación</dt><dd>Mérida, Yucatán</dd></div>
+          <div><dt>Carrera</dt><dd>Ing. en TI · Anáhuac Mayab</dd></div>
+          <div><dt>Idiomas</dt><dd>Español · Inglés B2+</dd></div>
+          <div><dt>Backend</dt><dd>Node.js, Express, MongoDB</dd></div>
+          <div><dt>Frontend</dt><dd>JavaScript, Bootstrap 5</dd></div>
+          <div><dt>Móvil</dt><dd>React Native, Expo</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ========== Contacto ========== -->
+    <section class="contact" id="contacto">
+      <div class="wrap">
+        <span class="label">Contacto</span>
+        <h2>Hablemos de tu <em>próximo</em> proyecto.</h2>
+        <p>Cuéntame qué necesitas y te respondo con una propuesta y un precio en menos de 48 horas.</p>
+        <div class="contact-box">
+          <span class="mail" id="mail">joshdlvj09@gmail.com</span>
+          <button class="copy" id="copyBtn" type="button">Copiar correo</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Joshua De la Vega · Mérida, Yucatán</span>
+      <a href="https://github.com/joshdlvj09" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
